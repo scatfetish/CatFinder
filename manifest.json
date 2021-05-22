@@ -8,5 +8,27 @@
         "32": "./images/cat32",
         "48": "./images/cat48",
         "128": "./images/cat128"
-    }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "./popup.html",
+        "default_icons": {
+            "16": "./images/cat16",
+            "32": "./images/cat32",
+            "48": "./images/cat48",
+            "128": "./images/cat128"
+        }
+    },
+    "options_page": "./options.html",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting"
+    ],
+    "hostpermissions": [
+        "https://www.youtube.com"
+    ]
 }
