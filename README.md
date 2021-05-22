@@ -5,7 +5,11 @@ this searches for cats based off of given parameters.
 これは、与えられたパラメータに基づいて猫を検索するものです。
 
 There are 2 planned languages:
+
+
 予定されている言語は2種類です：
+
+
 English （英語）
 日本語 (Japanese)
 
