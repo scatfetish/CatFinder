@@ -1,6 +1,12 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "CatFinder",
     "version": "0.1",
-    "description": "cat video playlist compiler"
+    "description": "cat video playlist compiler",
+    "icons": {
+        "16": "./images/cat16",
+        "32": "./images/cat32",
+        "48": "./images/cat48",
+        "128": "./images/cat128"
+    }
 }
